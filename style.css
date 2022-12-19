@@ -1,0 +1,93 @@
+body {
+    display: inline-block;
+    background: #000 url(web.jpg);
+    color: snow;
+    background-attachment: fixed;
+    background-repeat: repeat-x ;
+    font-size: large;
+    font-family: cursive;
+}
+p {
+    color: greenyellow;
+    font-size: 24px;
+    padding: 5px;
+    margin-left: 20px;
+    display: inline;
+    border-bottom: 3px solid #f9dd94;
+}
+ul {
+    color: fuchsia;
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+ol {
+    color: aqua;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+section {
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+footer {
+    font-family: Gabriola;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+pre {
+    margin-left: 1100px;
+}
+img {
+    width: 50rem;
+    height: 30rem;
+    background: linear-gradient(45deg, deeppink 50%, transparent 50%);
+    filter: drop-shadow(0.6rem 0.6rem 1rem rgba(20, 20, 180, 0.8));
+    margin-left: 300px;
+}
+.razdel_1 {
+    font-family: "Segoe Print";
+    font-size: 40px;
+    width: fit-content;
+    padding: 10px;
+    margin-left: 50px;
+    box-shadow:
+            -6px -6px 8px -4px rgba(255,0,0,0.75),
+            6px -6px 8px -4px rgba(0,255,0,0.75),
+            6px 6px 8px -4px rgba(255,255,0,0.75),
+            -6px 6px 8px -4px rgba(0,0,255,0.75);;
+}
+.razdel_2 {
+    font-family: "Segoe Print";
+    width: fit-content;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 30px;
+    box-shadow:
+            -6px -6px 8px -4px rgba(255,0,0,0.75),
+            6px -6px 8px -4px rgba(0,255,0,0.75),
+            6px 6px 8px -4px rgba(255,255,0,0.75),
+            -6px 6px 8px -4px rgba(0,0,255,0.75);;
+}
+.razdel_3 {
+    font-family: "Segoe Print";
+    width: fit-content;
+    padding: 10px;
+    margin-left: 20px;
+    box-shadow:
+            -6px -6px 8px -4px rgba(255,0,0,0.75),
+            6px -6px 8px -4px rgba(0,255,0,0.75),
+            6px 6px 8px -4px rgba(255,255,0,0.75),
+            -6px 6px 8px -4px rgba(0,0,255,0.75);;
+}
+.chitata {
+    margin-left: 350px;
+    font-size: xx-large;
+}
+.cite {
+    color: snow;
+}
