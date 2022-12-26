@@ -6,20 +6,21 @@
     <meta name="description" content="краткое описание">
     <meta name="keywords" content="цитата, предсказание">
     <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="/scripts/script.js"></script>
+    <script src="/scripts/script.js" defer></script>
 </head>
-
 <body>
 <header>
-    <h1 class="razdel_1">Раздел 1 header</h1>
-    <nav>
-        <ul>
-            <li>Основная навигация nav_1</li>
-            <li>Основная навигация nav_2</li>
-        </ul>
+    <h1 class="chapter_1">home</h1>
+    <nav class="header-nav right">
+        <a href="index.html" class="nav__home nav__active-page">home</a>
+        <a href="page2.html" class="nav__page2">Страница 2</a>
+        <a href="page3.html" class="nav__page3">Страница 3</a>
+        <a href="pageForm.html" class="nav__form">wed-form</a>
     </nav>
 </header>
 <main>
-    <h2 class="razdel_2">Раздел 2 main</h2>
+    <h2 class="chapter_2">Раздел 2 main</h2>
     <section>
         <h4> Логический раздел section_1 </h4>
         <p>Абзац p1</p>
@@ -42,24 +43,69 @@
             <li>Упорядоченный список ol_3</li>
         </ol>
     </section>
-    <pre>
-          ──▒▒▒▒▒▒───▄████▄
-          ─▒─▄▒─▄▒──███▄█▀
-          ─▒▒▒▒▒▒▒─▐████──█─█
-          ─▒▒▒▒▒▒▒──█████▄
-          ─▒─▒─▒─▒───▀████▀
-</pre>
+    <table width="100%" border="1" cellpadding="1" cellspacing="1" bordercolor="#333333" style="background-color: cornflowerblue">
+        <tr>
+            <th>1</th>
+            <th>1.2</th>
+            <th>1.3</th>
+            <th>1.4</th>
+        </tr>
+        <tr bgcolor="#f1edf2" style="color: black">
+            <th>2</th>
+            <td>раз</td>
+            <td>два</td>
+            <td>три</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>пять</td>
+            <td>шесть</td>
+            <td>семь</td>
+        </tr>
+        <tr bgcolor="#f1edf2" style="color: black">
+            <th>4</th>
+            <td>восемь</td>
+            <td>девять</td>
+            <td>десять</td>
+        </tr>
+        <tr>
+            <th>5</th>
+            <td>одинадцать</td>
+            <td>двенадцать</td>
+            <td>тринадцать</td>
+        </tr>
+    </table>
+    <div class="pict_t">
+        <div> <img id="p_1" src="pict2.jpeg"></div>
+        <div> <img id="p_2" src="pict4.jpg"></div>
+        <div> <img id="p_3" src="pict6.jpg"></div>
+    </div>
 </main>
+
 <footer>
-    <h3 class="razdel_3">Раздел 3 footer</h3>
-    <aside>
-        Дополнительное содержание aside
-    </aside>
-    <article>
-        Цельный, законченный и самостоятельный фрагмент информации article
-    </article>
-    <p class="chitata">По словам p <cite class="cite"> ВАЖНОГО ЧЕЛОВЕКА CITE </cite> — <q>интересная цитата q</q></p>
-</footer>
-<img src="web.jpg">
+    <div class="chapter_3_0">
+        <div class="chapter_3_1">
+            Раздел 3 footer
+        </div>
+        <aside>
+            Дополнительное содержание aside
+        </aside>
+        <article>
+            Цельный, законченный и самостоятельный фрагмент информации article
+        </article>
+        <p class="quote">По словам p <cite class="cite"> ВАЖНОГО ЧЕЛОВЕКА CITE </cite> — <q>интересная цитата q</q></p>
+    </div>
+    <ul> Watch
+        <li id="watch">
+            <script type="text/javascript"> watch();</script>
+        </li>
+    </ul>
+    <ul> Время загрузки страницы:
+        <li id="page_load_time">
+            <script type="text/javascript"> watch();</script>
+        </li>
+    </ul>
+   </footer>
+<img class="pict_web" src="web.jpg">
 </body>
 </html>
