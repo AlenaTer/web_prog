@@ -1,5 +1,4 @@
 body {
-    display: inline-block;
     background: #000 url(web.jpg);
     color: snow;
     background-attachment: fixed;
@@ -7,6 +6,17 @@ body {
     font-size: large;
     font-family: cursive;
 }
+
+header {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+    background: linear-gradient(0deg, rgba(255, 236, 226, 0.2), rgba(255, 236, 226, 0.2)), #6495EDFF;
+}
+
 p {
     color: greenyellow;
     font-size: 24px;
@@ -42,30 +52,46 @@ footer {
 pre {
     margin-left: 1100px;
 }
-img {
+
+.pict_web{
     width: 50rem;
     height: 30rem;
     background: linear-gradient(45deg, deeppink 50%, transparent 50%);
     filter: drop-shadow(0.6rem 0.6rem 1rem rgba(20, 20, 180, 0.8));
     margin-left: 300px;
 }
-.razdel_1 {
+
+#p_1{
+    width: 30rem;
+    height: 15rem;
+}
+#p_2{
+    width: 30rem;
+    height: 15rem;
+}
+#p_3{
+    width: 30rem;
+    height: 15rem;
+}
+.pict_t{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.chapter_1 {
     font-family: "Segoe Print";
     font-size: 40px;
     width: fit-content;
     padding: 10px;
-    margin-left: 50px;
-    box-shadow:
-            -6px -6px 8px -4px rgba(255,0,0,0.75),
-            6px -6px 8px -4px rgba(0,255,0,0.75),
-            6px 6px 8px -4px rgba(255,255,0,0.75),
-            -6px 6px 8px -4px rgba(0,0,255,0.75);;
+    margin-left: 10px;
+    margin-top: -15px;
 }
-.razdel_2 {
+.chapter_2 {
     font-family: "Segoe Print";
     width: fit-content;
     padding: 10px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 30px;
     box-shadow:
             -6px -6px 8px -4px rgba(255,0,0,0.75),
@@ -73,7 +99,7 @@ img {
             6px 6px 8px -4px rgba(255,255,0,0.75),
             -6px 6px 8px -4px rgba(0,0,255,0.75);;
 }
-.razdel_3 {
+.chapter_3_1 {
     font-family: "Segoe Print";
     width: fit-content;
     padding: 10px;
@@ -84,10 +110,50 @@ img {
             6px 6px 8px -4px rgba(255,255,0,0.75),
             -6px 6px 8px -4px rgba(0,0,255,0.75);;
 }
-.chitata {
+.quote {
     margin-left: 350px;
     font-size: xx-large;
 }
 .cite {
     color: snow;
+}
+
+.nav__active-page {
+    text-decoration: none;
+}
+.nav__home:hover,
+.nav__page2:hover,
+.nav__page3:hover,
+.nav__form:hover {
+    font-weight: bold;
+}
+#watch {
+    color: #73584B;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+}
+#page_load_time {
+    color: #73584B;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .pict_web {
+        display: none;
+    }
+    .chapter_3_0 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .pict_t {
+        display: flex;
+    }
 }
